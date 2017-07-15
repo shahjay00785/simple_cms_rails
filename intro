@@ -1,0 +1,13 @@
+mkdir Sites
+cd Sites
+rails new simple_cms
+nano Gemfile
+nano Gemfile.lock
+bundle install
+rails server
+rails
+rails generate
+rails generate controller demo index
+rails generate controller demo(controller) index(view)
+
+
