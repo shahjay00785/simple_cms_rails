@@ -10,7 +10,8 @@ class DemoController < ApplicationController
   def hello
     #render(:template => 'demo/hell')
     #render('index')
-    redirect_to('http://www.google.com')
+    #redirect_to('http://www.google.com')
+    @array = [1,2,3] #see in the view
   end
 
 
