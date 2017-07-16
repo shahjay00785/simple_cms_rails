@@ -6,8 +6,15 @@ class DemoController < ApplicationController
     render('hello')
   end
 
+
   def hello
-    render('index')
+    #render(:template => 'demo/hell')
+    #render('index')
+    redirect_to('http://www.google.com')
   end
 
+
+  def other_hello
+    redirect_to(:controller=>'demo',:action=>'index')
+  end
 end
