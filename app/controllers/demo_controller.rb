@@ -3,7 +3,7 @@ class DemoController < ApplicationController
 
   def index
     #render(:template => 'demo/hell')
-    render('hello')
+    #render('hello')
   end
 
 
@@ -12,6 +12,10 @@ class DemoController < ApplicationController
     #render('index')
     #redirect_to('http://www.google.com')
     @array = [1,2,3] #see in the view
+
+    #read parmater
+    @id = params['id'].to_i
+    @page = params[:page].to_i
   end
 
 
