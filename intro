@@ -1,6 +1,7 @@
 mkdir Sites
 cd Sites
 rails new simple_cms
+gem install mysql2 --no-rdoc --no-ri
 nano Gemfile
 nano Gemfile.lock
 bundle install
@@ -9,5 +10,3 @@ rails
 rails generate
 rails generate controller demo index
 rails generate controller demo(controller) index(view)
-
-
