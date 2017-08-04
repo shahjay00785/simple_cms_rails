@@ -6,6 +6,7 @@ nano Gemfile
 nano Gemfile.lock
 bundle install
 rails server
+http://localhost:3000/demo/index
 rails
 rails generate
 rails generate controller demo index
